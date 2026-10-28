@@ -1,5 +1,5 @@
 // オフライン用キャッシュ。build.py が index.html を作るたびに CACHE_VERSION を1つ上げる。
-const CACHE_VERSION = 1;
+const CACHE_VERSION = 2;
 const CACHE = "seishinka-v" + CACHE_VERSION;
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-180.png", "./icon-512.png"];
 
